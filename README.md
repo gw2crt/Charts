@@ -1,4 +1,4 @@
-# Charts
+#Javascript Chart Lib
 
-Javascript Charting demos
+Demos of a Javascript charting Library. 
 
