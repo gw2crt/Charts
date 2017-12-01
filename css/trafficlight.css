@@ -1,0 +1,67 @@
+#container {
+    height: 400px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+
+/* Since we're redefining colors after highcharts.css, we need to be specific 
+because otherwise some properties would be overwritten. Note that the preferred and 
+much simpler way to change the color scheme is to set the colors array in the highcharts.scss 
+SASS file and build it to CSS. */
+
+.highcharts-point.highcharts-color-0,
+.highcharts-legend-item.highcharts-color-0 .highcharts-point,
+.highcharts-tooltip.highcharts-color-0 {
+    fill: #ff0008;
+}
+
+.highcharts-tooltip.highcharts-color-0,
+.highcharts-data-label-connector.highcharts-color-0 {
+    stroke: #ff0008;
+}
+
+.highcharts-point.highcharts-color-1,
+.highcharts-legend-item.highcharts-color-1 .highcharts-point,
+.highcharts-tooltip .highcharts-color-1 {
+    fill: #ff0008;
+}
+
+.highcharts-tooltip.highcharts-color-1,
+.highcharts-data-label-connector.highcharts-color-1 {
+    stroke: #ff0008;
+}
+
+.highcharts-point.highcharts-color-2,
+.highcharts-legend-item.highcharts-color-2 .highcharts-point,
+.highcharts-tooltip .highcharts-color-2 {
+    fill: #ff8c00;
+}
+
+.highcharts-tooltip.highcharts-color-2,
+.highcharts-data-label-connector.highcharts-color-2 {
+    stroke: #ff8c00;
+}
+
+.highcharts-point.highcharts-color-3,
+.highcharts-legend-item.highcharts-color-3 .highcharts-point,
+.highcharts-tooltip .highcharts-color-3 {
+    fill: #21bc39;
+}
+
+.highcharts-tooltip.highcharts-color-3,
+.highcharts-data-label-connector.highcharts-color-3 {
+    stroke: #21bc39;
+}
+
+.highcharts-point.highcharts-color-4,
+.highcharts-legend-item.highcharts-color-4 .highcharts-point,
+.highcharts-tooltip .highcharts-color-4 {
+    fill: #21bc39;
+}
+
+.highcharts-tooltip.highcharts-color-4,
+.highcharts-data-label-connector.highcharts-color-4 {
+    stroke: #21bc39;
+}
